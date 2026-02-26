@@ -44,6 +44,9 @@ Aynı anda iki farklı terminalde şu komutları çalıştırın:
 - **Terminal 1 (Producer):** \`python3 generator.py\`
 - **Terminal 2 (Consumer/Analytics):** \`python3 consumer.py\`
 
+### 📸 System in Action (Live Demo)
+![Terminal Screenshot](terminal_demo.png)
+
 ---
 
 ## 📈 Product Manager Insights & KPIs
