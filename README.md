@@ -2,7 +2,7 @@ cat <<EOF > README.md
 # 🚀 PayStream-X: FinTech Data Platform & Real-Time Analytics
 
 ## 📖 Başlangıç Hikayesi (The Origin Story)
-Bu proje, **Booking.com** bünyesindeki **"Product Manager - Financial Technology (Data Platform)"** pozisyonuna hazırlanırken doğdu. İlanın gereksinimlerini incelediğimde; yüksek ölçekli veri işleme, Kafka mimarisi ve finansal veri platformları konusundaki derin beklentileri gördüm. 
+Bu proje, **Booking.com** bünyesindeki **"Product Manager - Financial Technology (Data Platform)"** iş ilanıyla karşılaşınca doğdu. İlanın gereksinimlerini incelediğimde; yüksek ölçekli veri işleme, Kafka mimarisi ve finansal veri platformları konusundaki derin beklentileri gördüm. 
 
 7 yıllık turizm teknolojileri (Gezinomi, HSP) tecrübemi, ilanda vurgulanan teknik yetkinliklerle birleştirmek adına bu **"Proof of Concept"** çalışmasını bizzat hayata geçirdim. Sadece bir ürün yönetmek değil, o ürünün veri hattındaki (Data Pipeline) her bir halkayı teknik düzeyde anlamak için bu platformu inşa ettim.
 
