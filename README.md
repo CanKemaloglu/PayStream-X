@@ -1,12 +1,17 @@
 cat <<EOF > README.md
 # 🚀 PayStream-X: FinTech Data Platform & Real-Time Analytics
 
-**PayStream-X**, çok uluslu turizm platformları (Booking.com, Expedia vb.) için tasarlanmış bir **"End-to-End Event Streaming"** prototipidir. Bu proje, 7 farklı ülkede operasyon yürüten ödeme altyapılarından gelen dağınık verileri merkezi bir veri hattında (Data Pipeline) toplar ve gerçek zamanlı analiz eder.
+## 📖 Başlangıç Hikayesi (The Origin Story)
+Bu proje, **Booking.com** bünyesindeki **"Product Manager - Financial Technology (Data Platform)"** pozisyonuna hazırlanırken doğdu. İlanın gereksinimlerini incelediğimde; yüksek ölçekli veri işleme, Kafka mimarisi ve finansal veri platformları konusundaki derin beklentileri gördüm. 
 
+7 yıllık turizm teknolojileri (Gezinomi, HSP) tecrübemi, ilanda vurgulanan teknik yetkinliklerle birleştirmek adına bu **"Proof of Concept"** çalışmasını bizzat hayata geçirdim. Sadece bir ürün yönetmek değil, o ürünün veri hattındaki (Data Pipeline) her bir halkayı teknik düzeyde anlamak için bu platformu inşa ettim.
 
+🔗 **İlgili İş İlanı:** [Product Manager - Financial Technology (Data Platform)](https://jobs.booking.com/careers/job/143588143243555)
+
+---
 
 ## 🎯 Business Case & Problem Statement
-Turizm sektöründe ödemeler; farklı sağlayıcılar (Stripe, Adyen, Iyzico), farklı para birimleri ve farklı zaman dilimlerinden gelir. 
+Turizm sektöründe (Booking.com gibi platformlarda) ödemeler; farklı sağlayıcılar (Stripe, Adyen, Iyzico), farklı para birimleri ve farklı zaman dilimlerinden gelir. 
 - **Sorun:** Veri siloları, mutabakat (reconciliation) gecikmeleri ve ölçeklenemeyen veri işleme süreçleri.
 - **Çözüm:** Event-driven (olay güdümlü) mimari ile veriyi anlık normalize eden ve finans ekiplerine "Single Source of Truth" sağlayan bir veri platformu.
 
